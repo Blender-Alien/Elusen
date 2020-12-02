@@ -11,8 +11,7 @@ int main(int argc, char** argv)
 {
 	Elusen::Log::Init();
 	EL_CORE_WARN("Initialized Log!");
-	int a = 5;
-	EL_INFO("Hello! Var={0}", a);
+	EL_INFO("That's a test message!");
 	
 	auto app = Elusen::CreateApplication();
 	app->Run();

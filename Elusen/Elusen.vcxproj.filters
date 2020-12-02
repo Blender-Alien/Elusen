@@ -4,6 +4,9 @@
     <Filter Include="Elusen">
       <UniqueIdentifier>{916DB7B0-7D0F-E286-66CA-F5DA520B69D7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Elusen\Events">
+      <UniqueIdentifier>{550C3A81-C1CC-B5B7-8A07-FF34F686FA93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Elusen.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Elusen\EntryPoint.h">
       <Filter>Elusen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Elusen\Events\ApplicationEvent.h">
+      <Filter>Elusen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Elusen\Events\Event.h">
+      <Filter>Elusen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Elusen\Events\KeyEvent.h">
+      <Filter>Elusen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Elusen\Events\MouseEvent.h">
+      <Filter>Elusen\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Elusen\Log.h">
       <Filter>Elusen</Filter>
