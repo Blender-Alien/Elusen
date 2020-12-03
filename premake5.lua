@@ -18,6 +18,9 @@ project "Elusen"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "elpch.h"
+	pchsource "Elusen/src/elpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

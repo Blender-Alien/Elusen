@@ -1,3 +1,4 @@
+#include "elpch.h"
 #include "Application.h"
 
 #include "Elusen/Events/ApplicationEvent.h"

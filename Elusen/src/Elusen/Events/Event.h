@@ -1,9 +1,8 @@
 #pragma once
 
 #include "Elusen/Core.h"
+#include "elpch.h"
 
-#include <string>
-#include <functional>
 
 namespace Elusen {
 

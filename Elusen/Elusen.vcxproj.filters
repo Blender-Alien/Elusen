@@ -34,6 +34,7 @@
     <ClInclude Include="src\Elusen\Log.h">
       <Filter>Elusen</Filter>
     </ClInclude>
+    <ClInclude Include="src\elpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Elusen\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Elusen\Log.cpp">
       <Filter>Elusen</Filter>
     </ClCompile>
+    <ClCompile Include="src\elpch.cpp" />
   </ItemGroup>
 </Project>
