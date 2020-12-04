@@ -2,13 +2,15 @@
 #include "Application.h"
 
 #include "Elusen/Events/ApplicationEvent.h"
-#include "Elusen/Log.h"
+
+#include <GLFW/glfw3.h>
 
 namespace Elusen {
 
 
 	Application::Application()
 	{
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
 	Application::~Application()
@@ -17,16 +19,11 @@ namespace Elusen {
 
 	void Application::Run()
 	{
-		WindowsResizeEvent e(1280, 720);
-		if (e.IsInCategory(EventCategoryApplication))
+		while (m_Running)
 		{
-			EL_TRACE(e);
+			glClearColor(1, 0, 1, 1);
+			glClear(GL_COLOR_BUFFER_BIT);
+			m_Window->OnUpdate();
 		}
-		if (e.IsInCategory(EventCategoryInput))
-		{
-			EL_TRACE(e);
-		}
-
-		while (true);
 	}
 }

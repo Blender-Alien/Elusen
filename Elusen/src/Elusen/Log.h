@@ -27,6 +27,7 @@ namespace Elusen {
 #define EL_CORE_INFO(...)  ::Elusen::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define EL_CORE_FATAL(...) ::Elusen::Log::GetCoreLogger()->fatal(__VA_ARGS__)
 
+
 // Core log macros
 #define EL_TRACE(...) ::Elusen::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define EL_ERROR(...) ::Elusen::Log::GetClientLogger()->error(__VA_ARGS__)
