@@ -39,6 +39,7 @@ namespace Elusen {
 		virtual const char* GetName() const = 0;
 		virtual int GetCategoryFlags() const = 0;
 		virtual std::string ToString() const { return GetName(); }
+		bool & get_Handled() { return m_Handled; }
 
 		inline bool IsInCategory(EventCategory category)
 		{

@@ -5,10 +5,10 @@
 
 namespace Elusen {
 
-	class ELUSEN_API WindowsResizeEvent : public Event
+	class ELUSEN_API WindowResizeEvent : public Event
 	{
 	public:
-		WindowsResizeEvent(unsigned int width, unsigned int height)
+		WindowResizeEvent(unsigned int width, unsigned int height)
 			: m_Width(width), m_Height(height) {}
 
 		inline unsigned int GetWidth() const { return m_Width; }
@@ -17,7 +17,7 @@ namespace Elusen {
 		std::string ToString() const override
 		{
 			std::stringstream ss;
-			ss << "WindowsResiveEvent" << m_Width << ", " << m_Height;
+			ss << "WindowResiveEvent" << m_Width << ", " << m_Height;
 			return ss.str();
 		}
 
