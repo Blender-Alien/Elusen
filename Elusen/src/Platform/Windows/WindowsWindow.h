@@ -2,6 +2,7 @@
 
 #include "Elusen/Window.h"
 #include "Elusen/Events/Event.h"
+
 #include <GLFW/glfw3.h>
 
 namespace Elusen {
