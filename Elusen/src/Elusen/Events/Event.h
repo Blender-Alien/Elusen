@@ -11,7 +11,7 @@ namespace Elusen {
 		None = 0,
 		WindowClose, WindowResize, WindowFocus, WindosLostFocus, WindowMoved,
 		AppTick, AppUpdate, AppRender,
-		KeyPressed, KeyReleased,
+		KeyPressed, KeyReleased, KeyTyped,
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
 
