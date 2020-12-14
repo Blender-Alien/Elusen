@@ -5,6 +5,7 @@
 #include "Elusen/Application.h"
 #include "Elusen/Layer.h"
 #include "Elusen/Log.h"
+#include "Elusen/ImGui/ImGuiLayer.h"
 
 // ---Entry Point--------------------
 
