@@ -10,12 +10,12 @@ public:
 
 	void OnUpdate() override
 	{
-		EL_INFO("ExampleLayer::Update");
+		//EL_INFO("ExampleLayer::Update");
 	}
 
 	void OnEvent(Elusen::Event& event) override
 	{
-		EL_TRACE("{0}", event);
+		//EL_TRACE("{0}", event);
 	}
 };
 
